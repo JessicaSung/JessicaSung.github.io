@@ -240,8 +240,6 @@ header {
   color: #F05F40 !important; }
 
 .text-orange {
-	/*color: #BC4F4F !important;*/
-	color: #C96432 !important;
 	color: #88201C !important; }
 
 .text-black {
@@ -250,6 +248,12 @@ header {
 
 .text-white {
 	color: rgba(255,255,255, 0.9) !important; }
+
+.headline {
+	color: white !important;
+	font-size: 20px !important;
+	font-weight: 700 !important;
+}
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
