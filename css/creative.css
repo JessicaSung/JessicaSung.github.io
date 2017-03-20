@@ -24,6 +24,14 @@ a {
   a:hover, a:focus {
     color: #f05f40; }
 
+a.black-link {
+	color: rgba(0,0,0, 1) !important;
+}
+
+a.red-link {
+	color: red !important;
+}
+
 h1,
 h2,
 h3,
