@@ -55,13 +55,20 @@
         mainClass: 'mfp-img-mobile',
         gallery: {
             enabled: true,
-            navigateByImgClick: true,
+            navigateByImgClick: false,
             preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
         },
         image: {
-        	titleSrc: 'alt',
+        	// titleSrc: 'alt',
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
+    });
+
+    // Full-size image takes user to application
+    $(document).on('click', '.mfp-img', function() {
+    	var destination = $(this).attr('alt');
+    	window.open(destination);
+    	return false;
     });
 
 })(jQuery); // End of use strict
