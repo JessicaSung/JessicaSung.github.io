@@ -263,8 +263,21 @@ header {
 
 .headline {
 	color: white !important;
-	font-size: 20px !important;
+	font-size: 30px !important;
 	font-weight: 700 !important;
+}
+
+#tagline {
+	text-shadow: 
+		2px 0 0 #88201C, 
+		-2px 0 0 #88201C, 
+		0 2px 0 #88201C, 
+		0 -2px 0 #88201C, 
+		1px 1px #88201C, 
+		-1px -1px 0 #88201C, 
+		1px -1px 0 #88201C, 
+		-1px 1px 0 #88201C;
+	color: black;
 }
 
 .no-gutter > [class*='col-'] {
