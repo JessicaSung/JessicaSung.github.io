@@ -32,6 +32,10 @@ a.red-link {
 	color: red !important;
 }
 
+a.black-link:hover {
+	color: #F05F40 !important;
+}
+
 h1,
 h2,
 h3,
